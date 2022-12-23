@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {},
     backgroundImage: {
-      mainOne: "url('/Project-Shoea/assets/img/WallpaperDog-20534610 1.png')",
+      mainOne: "url('/assets/img/WallpaperDog-20534610 1.png')",
     },
   },
   plugins: [],
