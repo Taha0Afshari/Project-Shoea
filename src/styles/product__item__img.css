@@ -1,0 +1,23 @@
+.product__item__img__container {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+    width: 162px;
+    height: 162px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    margin-bottom: 12px;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
