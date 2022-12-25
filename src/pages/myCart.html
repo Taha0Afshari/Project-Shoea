@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/shopping-cart.css" />
+    <link rel="stylesheet" href="../styles/globall.css" />
+    <title>My Cart</title>
+  </head>
+  <body class="w-full h-screen relative">
+    <header class="fixed top-0 left-0 w-full">
+      <div class="flex justify-around">
+        <div class="flex items-center gap-5">
+          <svg
+            width="15"
+            height="25"
+            viewBox="0 0 54 81"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.23355 17.7415C22.2531 10.4389 33.6453 3.542 39.7482 0.499261C44.834 -2.54348 47.1042 9.00132 42.7997 16.7273C38.4952 24.4532 26.5252 28.8982 26.5252 28.8982C26.5252 28.8982 52.9712 22.8128 53.9884 46.1404C54.2537 52.2259 49.9198 59.3256 46.8683 61.3541C43.8168 63.3826 17.3708 79.1034 14.3194 80.6248C10.7425 82.4081 9.23359 77.582 9.23359 71.4965C9.23359 57.2971 25.5081 52.2259 25.5081 52.2259C11.2679 54.2544 2.1135 49.1832 0.0791923 33.9695C-0.598903 28.8982 3.13068 21.1646 9.23355 17.7415Z"
+              fill="black"
+            />
+          </svg>
+          <span class="font-bold">My Cart</span>
+        </div>
+        <div class="km:w-[50%]">
+          <div
+            class="my-1 rounded h-[37px] flex justify-center items-center gap-[1rem] p-[0.5rem]"
+          >
+            <input
+              class="bg-transparent outline-none focus:border-hidden w-[100%]"
+              type="text"
+              id="search-icon"
+            />
+            <label for="search-icon">
+              <img src="/assets/icon/search-interface-symbol.png" alt="" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="w-full bg-[#eee] absolute top-[82px] bottom-[100px] overflow-scroll"
+    >
+      <div class="flex flex-col items-center gap-3 mb-[50px]">
+        <div class="flex flex-col items-center mt-5">
+          <div
+            class="bg-white flex justify-center items-center gap-5 p-6 km:py-6 km:px-3 rounded-3xl km:w-[350px]"
+          >
+            <div class="w-[160px] km:w-[120px] bg-[#eee] px-3 py-5 rounded-3xl">
+              <img src="/assets/img/1.png" alt="" />
+            </div>
+            <div>
+              <div class="flex items-center gap-8 km:gap-4">
+                <p class="font-bold km:text-[14px]">Running Sportwar</p>
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/assets/icon/delete.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-3 text-xs mt-4">
+                <span
+                  class="inline-block w-[1rem] h-[1rem] bg-[#eee] rounded-full"
+                ></span>
+                <div>
+                  <span>Silver | Size=41</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-5 mt-4">
+                <span class="text-sm font-bold">$240.00</span>
+                <div
+                  class="flex items-center gap-4 rounded-2xl bg-[#eee] px-3 py-1"
+                >
+                  <span class="text-sm">-</span>
+                  <span class="text-xs font-bold">2</span>
+                  <span class="text-sm">+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-5">
+          <div
+            class="bg-white flex justify-center items-center gap-5 p-6 km:py-6 km:px-3 rounded-3xl km:w-[350px]"
+          >
+            <div class="w-[160px] km:w-[120px] bg-[#eee] px-3 py-5 rounded-3xl">
+              <img src="/assets/img/1.png" alt="" />
+            </div>
+            <div>
+              <div class="flex items-center gap-8 km:gap-4">
+                <p class="font-bold km:text-[14px]">Running Sportwar</p>
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/assets/icon/delete.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-3 text-xs mt-4">
+                <span
+                  class="inline-block w-[1rem] h-[1rem] bg-[#eee] rounded-full"
+                ></span>
+                <div>
+                  <span>Silver | Size=41</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-5 mt-4">
+                <span class="text-sm font-bold">$240.00</span>
+                <div
+                  class="flex items-center gap-4 rounded-2xl bg-[#eee] px-3 py-1"
+                >
+                  <span class="text-sm">-</span>
+                  <span class="text-xs font-bold">2</span>
+                  <span class="text-sm">+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-5">
+          <div
+            class="bg-white flex justify-center items-center gap-5 p-6 km:py-6 km:px-3 rounded-3xl km:w-[350px]"
+          >
+            <div class="w-[160px] km:w-[120px] bg-[#eee] px-3 py-5 rounded-3xl">
+              <img src="/assets/img/1.png" alt="" />
+            </div>
+            <div>
+              <div class="flex items-center gap-8 km:gap-4">
+                <p class="font-bold km:text-[14px]">Running Sportwar</p>
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/assets/icon/delete.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-3 text-xs mt-4">
+                <span
+                  class="inline-block w-[1rem] h-[1rem] bg-[#eee] rounded-full"
+                ></span>
+                <div>
+                  <span>Silver | Size=41</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-5 mt-4">
+                <span class="text-sm font-bold">$240.00</span>
+                <div
+                  class="flex items-center gap-4 rounded-2xl bg-[#eee] px-3 py-1"
+                >
+                  <span class="text-sm">-</span>
+                  <span class="text-xs font-bold">2</span>
+                  <span class="text-sm">+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-5">
+          <div
+            class="bg-white flex justify-center items-center gap-5 p-6 km:py-6 km:px-3 rounded-3xl km:w-[350px]"
+          >
+            <div class="w-[160px] km:w-[120px] bg-[#eee] px-3 py-5 rounded-3xl">
+              <img src="/assets/img/1.png" alt="" />
+            </div>
+            <div>
+              <div class="flex items-center gap-8 km:gap-4">
+                <p class="font-bold km:text-[14px]">Running Sportwar</p>
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/assets/icon/delete.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center gap-3 text-xs mt-4">
+                <span
+                  class="inline-block w-[1rem] h-[1rem] bg-[#eee] rounded-full"
+                ></span>
+                <div>
+                  <span>Silver | Size=41</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-5 mt-4">
+                <span class="text-sm font-bold">$240.00</span>
+                <div
+                  class="flex items-center gap-4 rounded-2xl bg-[#eee] px-3 py-1"
+                >
+                  <span class="text-sm">-</span>
+                  <span class="text-xs font-bold">2</span>
+                  <span class="text-sm">+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div
+        class="fixed bottom-0 bg-white w-full h-[150px] flex flex-col justify-between pt-4 rounded-tl-[50px] rounded-tr-[50px]"
+      >
+        <div class="my-4 px-5 flex justify-between items-center h-[30%]">
+          <div class="flex flex-col justify-center items-center">
+            <span class="text-[10px]">Total price</span>
+            <span class="font-bold">$240.00</span>
+          </div>
+          <div>
+            <button
+              class="bg-black flex justify-center items-center gap-3 text-white px-10 py-3 rounded-[40px] text-sm"
+            >
+              Checkout
+              <img class="w-[13px]" src="/assets/icon/right-arrow.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center justify-around py-3 text-[12px]">
+          <div
+            class="flex flex-col justify-center items-center gap-1 cursor-pointer"
+          >
+            <img
+              class="w-[25px]"
+              src="/assets/icon/home-svgrepo-com.svg"
+              alt=""
+              id="home"
+            />
+            <label for="#home">Home</label>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-1 cursor-pointer"
+          >
+            <svg
+              width="22"
+              height="24"
+              viewBox="0 0 22 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              id="cart"
+              class="bg-[#ddd]"
+            >
+              <path
+                d="M11 1.5C11.9946 1.5 12.9484 1.89509 13.6517 2.59835C14.3549 3.30161 14.75 4.25544 14.75 5.25V6H7.25V5.25C7.25 4.25544 7.64509 3.30161 8.34835 2.59835C9.05161 1.89509 10.0054 1.5 11 1.5ZM16.25 6V5.25C16.25 3.85761 15.6969 2.52226 14.7123 1.53769C13.7277 0.553123 12.3924 0 11 0C9.60761 0 8.27226 0.553123 7.28769 1.53769C6.30312 2.52226 5.75 3.85761 5.75 5.25V6H0.5V21C0.5 21.7956 0.816071 22.5587 1.37868 23.1213C1.94129 23.6839 2.70435 24 3.5 24H18.5C19.2956 24 20.0587 23.6839 20.6213 23.1213C21.1839 22.5587 21.5 21.7956 21.5 21V6H16.25ZM2 7.5H20V21C20 21.3978 19.842 21.7794 19.5607 22.0607C19.2794 22.342 18.8978 22.5 18.5 22.5H3.5C3.10218 22.5 2.72064 22.342 2.43934 22.0607C2.15804 21.7794 2 21.3978 2 21V7.5Z"
+                fill="#212529"
+              />
+            </svg>
+            <label for="#cart">Cart</label>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-1 cursor-pointer"
+          >
+            <svg
+              width="23"
+              height="21"
+              viewBox="0 0 23 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              id="orders"
+            >
+              <path
+                d="M0 0.75C0 0.551088 0.0790176 0.360322 0.21967 0.21967C0.360322 0.0790178 0.551088 0 0.75 0H3C3.1673 4.62172e-05 3.32978 0.056026 3.4616 0.159037C3.59342 0.262048 3.68701 0.406176 3.7275 0.5685L4.335 3H21.75C21.8639 3.00003 21.9763 3.02602 22.0787 3.07598C22.1811 3.12594 22.2708 3.19857 22.3409 3.28836C22.411 3.37814 22.4598 3.48272 22.4834 3.59416C22.5071 3.7056 22.5051 3.82096 22.4775 3.9315L20.2275 12.9315C20.187 13.0938 20.0934 13.238 19.9616 13.341C19.8298 13.444 19.6673 13.5 19.5 13.5H6C5.8327 13.5 5.67022 13.444 5.5384 13.341C5.40658 13.238 5.31299 13.0938 5.2725 12.9315L2.415 1.5H0.75C0.551088 1.5 0.360322 1.42098 0.21967 1.28033C0.0790176 1.13968 0 0.948912 0 0.75ZM4.71 4.5L6.585 12H18.915L20.79 4.5H4.71ZM7.5 16.5C7.10218 16.5 6.72064 16.658 6.43934 16.9393C6.15804 17.2206 6 17.6022 6 18C6 18.3978 6.15804 18.7794 6.43934 19.0607C6.72064 19.342 7.10218 19.5 7.5 19.5C7.89782 19.5 8.27936 19.342 8.56066 19.0607C8.84196 18.7794 9 18.3978 9 18C9 17.6022 8.84196 17.2206 8.56066 16.9393C8.27936 16.658 7.89782 16.5 7.5 16.5ZM4.5 18C4.5 17.2044 4.81607 16.4413 5.37868 15.8787C5.94129 15.3161 6.70435 15 7.5 15C8.29565 15 9.05871 15.3161 9.62132 15.8787C10.1839 16.4413 10.5 17.2044 10.5 18C10.5 18.7956 10.1839 19.5587 9.62132 20.1213C9.05871 20.6839 8.29565 21 7.5 21C6.70435 21 5.94129 20.6839 5.37868 20.1213C4.81607 19.5587 4.5 18.7956 4.5 18ZM18 16.5C17.6022 16.5 17.2206 16.658 16.9393 16.9393C16.658 17.2206 16.5 17.6022 16.5 18C16.5 18.3978 16.658 18.7794 16.9393 19.0607C17.2206 19.342 17.6022 19.5 18 19.5C18.3978 19.5 18.7794 19.342 19.0607 19.0607C19.342 18.7794 19.5 18.3978 19.5 18C19.5 17.6022 19.342 17.2206 19.0607 16.9393C18.7794 16.658 18.3978 16.5 18 16.5ZM15 18C15 17.2044 15.3161 16.4413 15.8787 15.8787C16.4413 15.3161 17.2044 15 18 15C18.7956 15 19.5587 15.3161 20.1213 15.8787C20.6839 16.4413 21 17.2044 21 18C21 18.7956 20.6839 19.5587 20.1213 20.1213C19.5587 20.6839 18.7956 21 18 21C17.2044 21 16.4413 20.6839 15.8787 20.1213C15.3161 19.5587 15 18.7956 15 18Z"
+                fill="#212529"
+              />
+            </svg>
+            <label for="#orders">Orders</label>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-1 cursor-pointer"
+          >
+            <svg
+              width="24"
+              height="23"
+              viewBox="0 0 24 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              id="wallet"
+            >
+              <path
+                d="M18.204 0.488884C18.5356 0.405939 18.8817 0.399631 19.2161 0.470439C19.5505 0.541247 19.8644 0.687309 20.1339 0.897538C20.4034 1.10777 20.6214 1.37663 20.7715 1.68373C20.9216 1.99083 20.9997 2.32808 21 2.66988V4.49988H21.75C22.3467 4.49988 22.919 4.73694 23.341 5.15889C23.7629 5.58085 24 6.15315 24 6.74988V20.2499C24 20.8466 23.7629 21.4189 23.341 21.8409C22.919 22.2628 22.3467 22.4999 21.75 22.4999H2.25C1.65326 22.4999 1.08097 22.2628 0.65901 21.8409C0.237053 21.4189 1.47137e-07 20.8466 1.47137e-07 20.2499V6.74988C-0.000209191 6.17067 0.222964 5.61368 0.623066 5.19486C1.02317 4.77603 1.56938 4.52764 2.148 4.50138L18.204 0.488884ZM8.343 4.49988H19.5V2.66988C19.4997 2.55609 19.4736 2.44384 19.4235 2.34165C19.3735 2.23945 19.3008 2.14999 19.2111 2.08004C19.1213 2.01008 19.0168 1.96147 18.9055 1.93788C18.7941 1.91429 18.6789 1.91635 18.5685 1.94388L8.343 4.49988ZM2.25 5.99988C2.05109 5.99988 1.86032 6.0789 1.71967 6.21955C1.57902 6.36021 1.5 6.55097 1.5 6.74988V20.2499C1.5 20.4488 1.57902 20.6396 1.71967 20.7802C1.86032 20.9209 2.05109 20.9999 2.25 20.9999H21.75C21.9489 20.9999 22.1397 20.9209 22.2803 20.7802C22.421 20.6396 22.5 20.4488 22.5 20.2499V6.74988C22.5 6.55097 22.421 6.36021 22.2803 6.21955C22.1397 6.0789 21.9489 5.99988 21.75 5.99988H2.25Z"
+                fill="#212529"
+              />
+            </svg>
+            <label for="#wallet">Wallet</label>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-1 cursor-pointer"
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              id="profile"
+            >
+              <path
+                d="M9 9C10.1935 9 11.3381 8.52589 12.182 7.68198C13.0259 6.83807 13.5 5.69347 13.5 4.5C13.5 3.30653 13.0259 2.16193 12.182 1.31802C11.3381 0.474106 10.1935 0 9 0C7.80653 0 6.66193 0.474106 5.81802 1.31802C4.97411 2.16193 4.5 3.30653 4.5 4.5C4.5 5.69347 4.97411 6.83807 5.81802 7.68198C6.66193 8.52589 7.80653 9 9 9ZM12 4.5C12 5.29565 11.6839 6.05871 11.1213 6.62132C10.5587 7.18393 9.79565 7.5 9 7.5C8.20435 7.5 7.44129 7.18393 6.87868 6.62132C6.31607 6.05871 6 5.29565 6 4.5C6 3.70435 6.31607 2.94129 6.87868 2.37868C7.44129 1.81607 8.20435 1.5 9 1.5C9.79565 1.5 10.5587 1.81607 11.1213 2.37868C11.6839 2.94129 12 3.70435 12 4.5ZM18 16.5C18 18 16.5 18 16.5 18H1.5C1.5 18 0 18 0 16.5C0 15 1.5 10.5 9 10.5C16.5 10.5 18 15 18 16.5ZM16.5 16.494C16.4985 16.125 16.269 15.015 15.252 13.998C14.274 13.02 12.4335 12 9 12C5.565 12 3.726 13.02 2.748 13.998C1.731 15.015 1.503 16.125 1.5 16.494H16.5Z"
+                fill="#212529"
+              />
+            </svg>
+            <label for="#profile">Profile</label>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#00000080] h-screen w-full fixed bottom-0 hidden">
+        <div
+          class="fixed bottom-0 bg-[#eee] w-full min-h-[220px] flex flex-col justify-between rounded-tl-[50px] rounded-tr-[50px]"
+        >
+          <div
+            class="my-1 px-5 flex flex-col justify-center items-center gap-4 h-[100%]"
+          >
+            <hr class="w-[30px] h-[3px] bg-[#b9b9b9]" />
+            <p>Remove From Cart?</p>
+            <hr class="w-full h-[1px] bg-[#b9b9b9]" />
+            <div
+              class="bg-white flex justify-center items-center gap-5 p-6 km:py-6 km:px-3 rounded-3xl km:w-[300px]"
+            >
+              <div
+                class="w-[160px] km:w-[120px] bg-[#eee] px-3 py-5 rounded-3xl"
+              >
+                <img src="/assets/img/1.png" alt="" />
+              </div>
+              <div>
+                <div class="flex items-center gap-8 km:gap-4">
+                  <p class="font-bold km:text-[14px]">Running Sportwar</p>
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="/assets/icon/delete.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex items-center gap-3 text-xs mt-4">
+                  <span
+                    class="inline-block w-[1rem] h-[1rem] bg-[#eee] rounded-full"
+                  ></span>
+                  <div>
+                    <span>Silver | Size=41</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-5 mt-4">
+                  <span class="text-sm font-bold">$240.00</span>
+                  <div
+                    class="flex items-center gap-4 rounded-2xl bg-[#eee] px-3 py-1"
+                  >
+                    <span class="text-sm">-</span>
+                    <span class="text-xs font-bold">2</span>
+                    <span class="text-sm">+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="w-full h-[1px] bg-[#b9b9b9]" />
+            <div class="flex justify-around w-full">
+              <button
+                class="bg-[#c4c4c4] font-blold font-bold py-2 px-10 rounded-3xl cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                class="bg-[#0F0F10] text-white font-blold py-2 px-10 rounded-3xl cursor-pointer"
+              >
+                Yes,Remove
+              </button>
+            </div>
+          </div>
+          <div class="flex items-center justify-around py-3 text-[12px]"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
