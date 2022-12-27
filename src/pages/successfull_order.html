@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/src/styles/globall.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/src/styles/globall.css" />
+  </head>
+  <body class="flex justify-center items-center w-screen h-screen bg-black bg-opacity-30">
+    <form
+      class="flex justify-center bg-white flex-col items-center p-4 gap-3 rounded-3xl shadow-2xl shadow-[#cecccc]"
+      action=""
+    >
+      <div
+        class="flex justify-center items-center w-36 h-36"
+        id="successfullImg"
+      >
+        <img src="/assets/img/nike20.png" alt="" />
+      </div>
+
+      <span class="font-extrabold text-xl">order successful!</span>
+      <span class="font-base text-sm">you have successfully made an order</span>
+      <button
+        class="w-[100%] flex justify-center items-center bg-black text-white font-bold rounded-3xl p-2"
+      >
+        view order
+      </button>
+      <button
+        class="w-[100%] flex justify-center items-center bg-[#e7e7e7] text-black font-bold rounded-3xl p-2"
+      >
+        view E-receipts
+      </button>
+    </form>
+  </body>
 </html>
